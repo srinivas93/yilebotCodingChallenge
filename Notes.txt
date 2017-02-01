@@ -1,0 +1,24 @@
+YieldBot Project
+
+
+Frameworks/Libraries used:
+Bootstrap
+Datatable jQuery plugin.
+
+Instructions:
+
+Features implemented: 
+Search,Sort,Add/Edit/Delete User. 
+
+I have used Bootstrap and Datatables table plugin for jQuery  for achieveing some functionalities. I have worked on Bootstrap tables before with my Tip Manager project(https://github.com/srinivas93/TamagoTipsManagerBundle) and it looked really good. So I decided to use bootstrap for the table formating and fonts. Datatable is a powerful jQuery tool which gives Pagenation, Sort and Search feature to HTML tables. Once I get the data from user.js it is displayed on the webpage and put into the table. I have turned on search using Name,office address and company . You can also sort the table alphabetically. I have used Datatables because search feature is much more efficient than implementing a search function. For editing the rows in the table, I have used CellEdit which is an open source plugin for DataTable. You can click on any cell to edit the cell value and once you are done editing you can click on confirm.
+
+
+Known bugs/Issues
+
+I have implemented Add,edit and delete feature to the table. Before clicking on add,you must sort the table "name" column alphabeticlly to see the new row on top. However, when you click on add new user, it creates a new dummy row with dummy values. You then have to edit the columns and save it as you would edit any other column.Also when you click on confirm after changing the name field, you have to search for the name on the search bar and then edit the rest of the field. Clicking on the "X" button will delete the entry from the table. However, it doesn't change the users.js file so when you refresh the page you will get everything from the users.js. 
+
+
+
+References:
+https://datatables.net/examples/
+
